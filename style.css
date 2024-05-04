@@ -30,6 +30,10 @@ span {
   color: #0b132a;
 }
 
+a {
+  text-decoration: none;
+}
+
 /*******  Header  ********/
 
 .header {
@@ -131,6 +135,10 @@ main {
   padding-bottom: 72.5px;
 }
 
+.grid__img {
+  margin-right: 36px;
+}
+
 .info__ul {
   list-style: none;
 }
@@ -209,10 +217,8 @@ main {
   background-color: #ffffff;
   border: 2px solid #dddddd;
   border-radius: 10px;
-}
-
-.cards_img {
-  padding-top: 79.63px;
+  padding: 79.63px 69.87px 50px 69.87px;
+  position: relative;
 }
 
 .cards__title {
@@ -230,7 +236,6 @@ main {
   font-weight: 400;
   font-size: 14px;
   text-align: left;
-  margin-right: 69.73px;
 }
 
 .cards__info_each {
@@ -244,6 +249,8 @@ main {
 }
 
 .cards__info_choose {
+  position: absolute;
+  bottom: 50px;
 }
 
 .cards__title_btn {
@@ -325,7 +332,7 @@ main {
   border: 2px solid #f53838;
   border-radius: 10px;
   padding: 30px;
-  max-width: 359px;
+  max-width: 350px;
 }
 
 .card__info_person {
@@ -337,6 +344,7 @@ main {
   text-align: left;
   margin-right: 62px;
   min-width: 142px;
+  margin-left: 20px;
 }
 
 .person_name {
@@ -396,16 +404,89 @@ main {
   cursor: pointer;
 }
 
+/*****Subscrube******/
+
 .subscribe {
-  margin-top: 65px;
+  margin-top: 50px;
   display: flex;
-  background-color: #f7cfcf;
+  background-color: #fff;
   justify-content: space-between;
   align-items: center;
-  padding: 58.5px 70px;
+  padding: 55.5px 70px;
   text-align: left;
+  position: absolute;
+  z-index: 1;
+  box-shadow: 10px 30px 50px 5px #f8f8f8;
 }
 
 .subscribe__info {
   width: 400px;
+  margin-right: 340px;
+}
+
+.subscribe__button {
+  background-color: #f53838;
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 1.094rem 4.844rem;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: -3px 30px 20px -6px #f7cfcf;
+}
+
+/****** Footer *******/
+
+.footer {
+  background-color: #f8f8f8;
+  padding-top: 183px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer__text {
+  width: 340px;
+  color: #4f5665;
+}
+
+.social__links {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.social__links img:not(:last-child) {
+  margin-right: 20px;
+}
+
+.footer__year {
+  color: #afb5c0;
+}
+
+.footer__col h4 {
+  font-weight: 500;
+  font-size: 18px;
+  color: #0b132a;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.footer__col li a {
+  color: #4f5665;
+  font-size: 16px;
+  text-align: left;
+}
+
+.footer__col ul li:not(:last-child) {
+  margin-bottom: 20px;
 }
