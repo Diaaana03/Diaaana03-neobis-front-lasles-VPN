@@ -1,19 +1,179 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
 }
 
-a{
-    text-decoration: none;
+body {
+  font-family: "Rubik", sans-serif;
+  color: #4f5665;
 }
 
-body{
-    font-family: "Rubik", sans-serif;
-    background-color: #fff;
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
-header{
-    width: 100%;
-    display: flex;
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
 }
+
+h2 {
+  font-weight: 500;
+  font-size: 35px;
+  color: #0b132a;
+  margin-bottom: 20px;
+  line-height: 50px;
+}
+
+/*******  Header  ********/
+
+.header {
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  margin-right: 157px;
+  margin-left: 150px;
+  cursor: pointer;
+}
+
+.header__list {
+  display: flex;
+  list-style: none;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.header__item {
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.form__button_signIn {
+  margin-right: 30px;
+  margin-left: 150px;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.form__button_signUp {
+  background: transparent;
+  border: #f53855 1px solid;
+  border-radius: 50px;
+  color: #f53855;
+  padding: 13.008px 45.008px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/*******  Main  ********/
+
+main {
+  display: flex;
+  margin-top: 88.4px;
+  margin-left: 150px;
+  margin-bottom: 103px;
+}
+
+.main__info {
+  max-width: 555px;
+  padding-top: 27.66px;
+  margin-right: 40px;
+}
+
+.main__h1 {
+  font-weight: 500;
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #0b132a;
+}
+
+.main__button {
+  background-color: #f53855;
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 1.094rem 4.844rem;
+  border-radius: 10px;
+  margin-top: 50px;
+  cursor: pointer;
+  box-shadow: -3px 30px 20px -6px #f7cfcf;
+}
+
+.main__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.main__grid_cards {
+  display: flex;
+}
+
+.grid__item {
+  min-width: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 72.5px;
+  padding-bottom: 72.5px;
+}
+
+.info__ul {
+  list-style: none;
+}
+
+.info_count {
+  font-weight: 700;
+  font-size: 25px;
+  color: #0b132a;
+}
+
+.info_title {
+  font-size: 20px;
+}
+
+.grid__item_borders {
+  border-right: 2px solid #eeeff2;
+  border-left: 2px solid #eeeff2;
+}
+
+/**** Provide ******/
+
+.section__provide {
+  display: flex;
+  margin-top: 95.83px;
+  min-width: 26.743rem;
+  align-items: center;
+}
+
+.provide__img {
+  margin-right: 169.48px;
+}
+
+.provide__text {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.info__provide {
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  line-height: 30px;
+}
+
+.tick_img {
+  margin-right: 10.08px;
+}
+
+/*******  Plan  ********/
