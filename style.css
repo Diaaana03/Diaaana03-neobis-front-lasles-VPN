@@ -26,6 +26,10 @@ h2 {
   line-height: 50px;
 }
 
+span {
+  color: #0b132a;
+}
+
 /*******  Header  ********/
 
 .header {
@@ -97,7 +101,7 @@ main {
 }
 
 .main__button {
-  background-color: #f53855;
+  background-color: #f53838;
   color: #fff;
   border: none;
   font-weight: 700;
@@ -151,6 +155,7 @@ main {
 .section__provide {
   display: flex;
   margin-top: 95.83px;
+  margin-bottom: 131.19px;
   min-width: 26.743rem;
   align-items: center;
 }
@@ -177,3 +182,230 @@ main {
 }
 
 /*******  Plan  ********/
+
+.section__plan {
+  background-color: #fbfbfb;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 80.27px;
+  padding-bottom: 150px;
+  text-align: center;
+}
+
+.plan__grid {
+  display: grid;
+  grid-column: 1fr 1fr 1fr;
+  margin-top: 60px;
+}
+
+.plan__cards {
+  display: flex;
+  grid-column-gap: 50px;
+  min-width: 190.26px;
+  height: 760px;
+}
+
+.cards__item {
+  background-color: #ffffff;
+  border: 2px solid #dddddd;
+  border-radius: 10px;
+}
+
+.cards_img {
+  padding-top: 79.63px;
+}
+
+.cards__title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #0b132a;
+  margin-top: 30px;
+}
+
+.cards__info {
+  margin-top: 30px;
+  list-style: none;
+  line-height: 30px;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: left;
+  margin-right: 69.73px;
+}
+
+.cards__info_each {
+  display: flex;
+  align-items: center;
+}
+
+.freeTick_img {
+  margin-right: 20.54px;
+  align-items: center;
+}
+
+.cards__info_choose {
+}
+
+.cards__title_btn {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.plan__select {
+  color: #f53838;
+  background-color: transparent;
+  border: solid 2px #f53838;
+  border-radius: 50px;
+  padding: 13px 62.94px 13px 62.94px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.plan__selected {
+  color: #fff;
+  background-color: #f53838;
+  border: #f53838;
+  border-radius: 50px;
+  padding: 13px 62.94px 13px 62.94px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  box-shadow: -3px 30px 20px -6px #f7cfcf;
+}
+
+/****** Map *******/
+
+.map {
+  margin-top: -60px;
+  text-align: center;
+}
+
+.map__title {
+  margin: 0 auto;
+  max-width: 383.41px;
+}
+
+.map_img {
+  margin-top: 155.81px;
+}
+
+.sponsored_img {
+  margin-top: 29.35px;
+}
+
+/****** Reviews *******/
+
+.reviews {
+  text-align: center;
+  margin-bottom: 181px;
+}
+
+.reviews__title {
+  margin: 0 auto;
+  max-width: 447.81px;
+}
+
+.reviews__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 60px;
+  margin-left: 150px;
+}
+
+.reviews__grid_cards {
+  display: flex;
+  gap: 50px;
+}
+
+.reviews__card {
+  border: 2px solid #f53838;
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 359px;
+}
+
+.card__info_person {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.person_details {
+  text-align: left;
+  margin-right: 62px;
+  min-width: 142px;
+}
+
+.person_name {
+  list-style: none;
+  font-weight: 500;
+  font-size: 18px;
+  color: #0b132a;
+  margin-bottom: 5px;
+}
+
+.person_country {
+  list-style: none;
+  font-size: 14px;
+}
+
+.person_rating {
+  font-size: 16px;
+  color: #0b132a;
+  margin-right: 10px;
+}
+
+.person_text {
+  text-align: left;
+  line-height: 30px;
+  font-size: 16px;
+}
+
+.reviews__animation {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dots_img {
+  height: 15px;
+}
+
+.reviews__buttons {
+  display: flex;
+}
+
+.left_button {
+  border: 2px solid #f53838;
+  border-radius: 50%;
+  background-color: transparent;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.right_button {
+  border: none;
+  border-radius: 50%;
+  background-color: #f53838;
+  padding: 15px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.subscribe {
+  margin-top: 65px;
+  display: flex;
+  background-color: #f7cfcf;
+  justify-content: space-between;
+  align-items: center;
+  padding: 58.5px 70px;
+  text-align: left;
+}
+
+.subscribe__info {
+  width: 400px;
+}
