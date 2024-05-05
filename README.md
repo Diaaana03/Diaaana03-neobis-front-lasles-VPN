@@ -17,14 +17,10 @@ Here’s a recommended guide:
 
 #### Installation
 
-1.  Open your terminal
-2.  Change the current working directory to the location where you want the cloned repo
-3.  Type this command: `git clone https://github.com/Diaaana03/Comfy.git`
-
-4.  Press Enter.
-    Once the installation is over, start the app locally through your code editor.
-    Hope everything works.
+1.  Open your browser
+2.  Paste this link in the command line https://diaaana03.github.io/Diaaana03-neobis-front-lasles-VPN/
+3.  Press Enter. Website is working
 
 ##### Contact
 
-- Project Link on GitHub https://github.com/Diaaana03/Comfy.git
+- Project Link on GitHub https://diaaana03.github.io/Diaaana03-neobis-front-lasles-VPN/
